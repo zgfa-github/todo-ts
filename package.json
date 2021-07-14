@@ -1,0 +1,23 @@
+{
+  "name": "todo-ts",
+  "version": "1.0.0",
+  "description": "my first ts",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zgfa-github/todo-ts.git"
+  },
+  "author": "zgf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zgfa-github/todo-ts/issues"
+  },
+  "homepage": "https://github.com/zgfa-github/todo-ts#readme",
+  "devDependencies": {
+    "vite": "^2.4.2"
+  }
+}

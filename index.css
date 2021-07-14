@@ -1,0 +1,7 @@
+#list,li{
+    color:red;
+    list-style-type: none;
+}
+button {
+    background:#0066cc;
+}

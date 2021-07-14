@@ -12,3 +12,10 @@
 ## git remote add origin https://github.com/zgfa-github/todo-ts.git
 ## 推送到远程库
 ## git push -u origin master
+
+#### 编程设计思想
+#### 外层 绑定事件函数处理
+#### 操作数据
+#### 操作dom
+#### 视图模板
+#### 每块都是对应用面向对象编写
