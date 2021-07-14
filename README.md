@@ -25,5 +25,4 @@
 https://www.pianshen.com/article/91641831500/
 
 创建好，就需要创建忽略文件了，否则后期无效，始终会上传依赖包，这样上传太卡了
-![image]
-(https://img-blog.csdnimg.cn/20200504231041793.png)
+![image](https://img-blog.csdnimg.cn/20200504231041793.png)
