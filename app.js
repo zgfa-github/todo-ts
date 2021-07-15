@@ -9,13 +9,14 @@ import './index.css'
    
     const oTodoList = doc.getElementById('list')
     //初始化数据
-    const todoData =[{id:1,content:'zgf',completed:true}]
+    const todoData =[{id:1,content:'zgf',completed:true},{id:2,content:'lisi',completed:true}]
     //实例化对象
     const todoEvent = new TodoEvent(todoData,oTodoList)
     function bindEvent() {
         /**
          * 绑定事件处理函数
          * false 为冒泡阶段
+         * true 为捕获阶段
          */
         oButton.addEventListener('click',handleAddTodo, false)
         oTodoList.addEventListener('click',handleClickItem, false)

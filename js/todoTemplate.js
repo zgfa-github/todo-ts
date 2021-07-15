@@ -10,8 +10,10 @@ class TodoTemplate {
         console.log(this.wrapper);
         const {id,content,completed} = todo
         return `<div >
+            <label>
             <input type="checkbox" ${completed?'checked':''} data-id="${id}"/>
             <span style="text-decoration:${completed?'line-through':'none'}">${content}</span>
+            </label>
             <button data-id="${id}"> 删除</button>
         </div>`
     }

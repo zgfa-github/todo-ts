@@ -35,6 +35,7 @@ class TodoEvent extends TodoDom{
     removeTodo(target,id) {
         //console.log(target);
         this.todoData.filter(todo=> todo.id !== id)
+        //调用操作dom
         this.removeItem(target)
     }
     toggleTodo(target,id) {
@@ -44,6 +45,7 @@ class TodoEvent extends TodoDom{
             if(todo.id === id ){
                 todo.completed =!todo.completed
                 console.log(todo.completed);
+                //调用操作dom
                 this.changeItem(target,todo.completed)
             }
             
